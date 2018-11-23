@@ -1,0 +1,83 @@
+<html>
+<head></head>
+
+<style>
+body, html {
+    height: 100%;
+}
+
+.bg { 
+   
+    background-image: url("thankyou.jpg");
+
+    
+    height: 100%; 
+
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 { 
+    display: block;
+    font-size: 6em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+	}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 28px;
+    font-size: 100px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.block:hover {
+    background-color: #ddd;
+    color: black;
+}
+</style>
+
+<body  class="bg">
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<button class="block">Party booked!!!</button>
+<!--<h1 align="center" style="color:blue"><bold>Party Booked!!!</bold></h1>-->
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<br><br></br></br><br></br><br><br><br><br><br><br><br>
+<center><h2>Party booked on</h2></center>
+
+<h2 id="demo" align="center">Party booked on</h2>
+
+<center><a href="mainpage.php"><button class="button"  >Back to home</button></a></center>
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+</body>
+</html>

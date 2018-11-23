@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+</head>
+<style>
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.block:hover {
+    background-color:  rgba(#d04444,0.5);
+    color: black;
+}
+.sam {
+	 background-color:  rgba(#d04444,0.5);
+    width: 1000px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0; 
+	#float:center;
+}
+
+#field{
+	background-color:rgba(255,255,32,0.5);
+}
+
+#div{
+	background-color: rgba(252,23,24,0.5);
+}
+</style>
+
+<body >
+<fieldset id="field">
+
+<div id="div" style="background-color:lightgreen ; border-radius:1000px">
+<h1 ><pre>	Party Enquiry</pre></h1>
+<p><pre>	Please complete the following information to get the best part quotes</pre></p>
+</div>
+	<center><div align='center' id="div" class="sam">
+	<form method="POST">
+	<h3>Enter location</h3>
+		<datalist id="places" >
+			<option>kathirigupe</option>
+			<option>marthhalli</option>
+			<option>whitefield</option>
+			<option>Hassan</option>
+		</datalist>
+		<input type="text" name="places" list="places" placeholder="Enter location(search for multiple locations)">
+			
+		<br></br>
+		<label><strong>Select Occasion</strong>
+		<br></br>
+			<input type="radio" name="occasion">Birthday
+			<input type="radio" name="occasion">Wedding
+			<input type="radio" name="occasion">Team Party
+			<input type="radio" name="occasion">Social Gathering
+			<input type="radio" name="occasion">Others
+		</label>
+		<br></br>
+		<lable><strong>Party date</strong><br></br>
+		<input type="date" name="date">
+		<br></br>
+		<strong>Total Guest Count</strong><p>(Min.15 guests needed)<br></br>
+		<datalist id="men" >
+			<option>0</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+		</datalist>
+		<input type="text" name="men" list="men" placeholder="Men select">
+		<datalist id="women" >
+			<option>0</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+		</datalist>
+		<input type="text" name="women" list="women" placeholder="WoMen select">
+		<datalist id="children" >
+			<option>0</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+		</datalist>
+		<input type="text" name="children" list="children" placeholder="children select">
+		<br></br>
+		<label><strong>Cost per head</strong><br></br>
+			<input type="radio" name="occasions">$40-$50<br></br>
+			<input type="radio" name="occasions">$50-$100<br></br>
+			<input type="radio" name="occasions">$100-$200<br></br>
+			<input type="radio" name="occasions">$300-$400<br></br>
+			<input type="radio" name="occasions">$400-$500<br></br>
+			</lable><br></br>
+		<lable><strong>Food Options</strong>
+		<input type="checkbox" name="a" style="border:2px dotted #00f ; display= block ; background=#ff0000" >Vegiterian
+		<input type="checkbox" name="a">NON-Vegiterian
+		</label><h4>Any suggestions</h4>
+		<textarea placeholder="Any special request">
+		</textarea>
+		</div></center>
+		<h2>Terms and Conditions</h2><br>
+		<ol><li>The Dineout team will call you to better understand your requirements for the party</li>
+		<li>The final prices quoted by Dineout will be based on the restaurant’s prices and policies</li>
+		<li>You may have to pay a token booking amount to finalize your party reservation. This amount will be calculated from the final estimate based on the restaurant’s policies.</ul>
+		<li>Payments made for Party Bookings are non-refundable and non-transferable.</li>
+		<li>In the event of a cancellation (for any reason whatsoever) deposits will not be refunded. In certain circumstances, the deposit may be valid if the party gets rescheduled at the same venue, but is at the absolute discretion of the restaurant.</li>
+		</ol>
+		<input type="checkbox" name="terms"><strong>Accept Terms and Conditions</strong><br></br>
+		<button class="block"><a href="conformation.html">Get Qoutations</button>
+		</fieldset>

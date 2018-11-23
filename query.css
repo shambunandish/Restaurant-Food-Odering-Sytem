@@ -1,0 +1,40 @@
+
+
+
+pre{font-size: 20px;
+	font-weight: 10px;
+}
+#button {
+   
+    float: right;
+	 color:red;
+	transition:0.6s ease;
+	background-color: #66ffff;
+  border-color: #398439;
+  width:140;
+  height:30;
+  font-family:comic sans ms;
+  font-size:20;
+   border-radius:1000px;
+  font-size:30px;
+
+}
+#button:hover{
+	 color: #fff;
+  background-color: #ff0066;
+	 
+ }
+
+#thanks{
+	background-color:yellow;
+	background:0.6;
+}
+
+#title{
+	font-family:segoe script;
+	font-size:40px;
+	color:#009933;
+	text-shadow: 2px 2px #FF0000;
+	text-shadow: 2px 2px #ffff00;
+	
+}

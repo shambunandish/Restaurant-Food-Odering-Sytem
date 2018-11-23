@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment Page</title>
+	<link rel="stylesheet" type="text/css" href="pay.css">
+</head>
+<body background="dinner.jpg">
+
+	<a href="mainpage.php" ><input type="button" style="float: right;" id="button" value="HOME"></a>   
+	<a href="menu.php" ><input type="button" style="float: right;" id="button" align="right" value="BACK"></a>
+
+	<fieldset id="credit">
+	<legend> <b>Credit Card Payment<b></legend>
+	<form action="pay.php" method="post">
+	<font style="font-size:14px;">
+		
+		<pre>Name:          	<input type="text" required name="name" autofocus></pre><br>
+		<pre>card Number:   	<input class="card" required type="number" name="cardnumber" maxlength="16"></pre>   <br>
+		<pre>Expiry Date:    <input type="number" required name="expdate" maxlength="2" style="width:30px;">/<input type="text" required name="expyear" maxlength="2" style="width:30px;">  CVV:  <input maxlength="3" required type="text" name="cvv" style="width:40px;"></pre></pre><br>
+		<center><a href="pay.php"><input type="Submit" id="button" name="submit" ></a></center>
+	</form>
+	</fieldset>
+<br>
+<br>
+<br>
+
+	
+	<fieldset id="debit">
+		<legend> Debit Card Payment</legend>
+	<form action="pay.php" method="post">
+		<pre>Name:          	<input type="text" required name="name"></pre><br>
+		<pre>card Number:   	<input class="card"  required  type="text" name="cardnumber">   </pre><br>
+		<pre>Expiry Date:    <input type="text" required name="expdate" maxlength="2" style="width:30px;">/<input type="text" name="expyear" maxlength="2" style="width:30px;"> CVV:  <input maxlength="3" type="text" name="cvv" style="width:40px;"></pre><br>
+		<center><input type="Submit" id="button" required name="Confirm And PAY"></center>
+			</font>
+	</fieldset>
+	</form>
+</body>
+</html>

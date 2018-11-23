@@ -1,0 +1,70 @@
+<html>
+	
+	<head>
+		<title>BOOK TABLE </title>
+		<link rel="stylesheet" type="text/css" href="tablecss.css">
+	</head>
+	
+	<body class="body" >
+		<!-- <table>
+			<tr id="menubar">
+				<td id="td"><select id="select" > 	
+				
+					<option id="option" ><b>LOGIN</b><option>
+					<option id="option">SIGNUP<option>
+					<option id="option">LOGOUT<option>
+				
+				</select></td>
+				<td id="td">TABLE</td>
+				<td id="td" style="float:center" >LOGIN</td>
+			</tr>
+		</table> -->
+			
+		<a href="mainpage.php">  <button id="button" style="float:right">HOME</button></a>
+		<a href="mainpage.php">	 <button id="button" >BACK</button></a>
+		
+		<center>
+				<div id="div">
+					<div id="subdiv">
+						<center id="title">
+					<span >BOOK TABLE</span>
+					<h1> Select tables to be booked</h1>
+    <select>
+            <option value="Family" >Family </option>
+            <option value="individual">Individual</option>
+            <option value="chill way">Chill</option>
+            <option value="Premium">Premium</option>
+          </select>
+          <h1> Select no of tables to be booked</h1>
+          <form action="table.php" method="post" name="menu" class="main" style=color:aliceblue>
+          
+                    <label><input type="Checkbox" name="1"  >1</label> <br>
+					<label><input type="Checkbox" name="2" >2</label><br>
+					<label><input type="Checkbox" name="3" >3</label><br>
+
+                <br><br>
+                <input type="submit" name="sub" value="Submit " id="button" align="Center" class="sub"> 
+</form>
+				
+					</center>
+					</div>
+				</div>
+		</center>
+
+		
+	</body>
+</html>
+
+<!-- <?php
+	$host="localhost:3306";
+	$user="root";
+	$pwd="";
+	
+	$conn=mysqli_connect($host,$user,$pwd);
+	$sql="CREATE DATABASE dineout";
+	if($conn->query($sql) ===TRUE)
+		{
+		echo "DATABASE created successfully";
+		}
+
+?> -->

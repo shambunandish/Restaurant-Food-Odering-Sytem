@@ -1,0 +1,58 @@
+.card{
+	#width: 2px;
+}
+
+#credit{
+	
+	color:white;
+	background-color:rgb(204, 102, 153,0.5);
+	width:200px;
+	text-shadow:2px 2px #FF0000;
+}
+
+#credit > legend{
+		color:yellow;
+	}
+	
+#credit:hover{
+	transition:0.6s ease;
+	background-color: rgba(102, 255, 255,0.5);
+	color:white;
+	text-shadow:2px 2px #FF0000;
+}
+#debit:hover{
+	transition:0.6s ease;
+	background-color: rgba(102, 255, 255,0.5);
+	color:white;
+	text-shadow:2px 2px #FF0000;
+}
+#debit{
+	text-shadow:2px 2px #FF0000;
+	color:white;
+	background-color:rgb(204, 102, 153,0.5);
+	width:200px;
+}
+
+#debit > legend{
+		color:yellow;
+	}
+	
+#button{
+	 color:red;
+	transition:0.6s ease;
+	background-color: #66ffff;
+  border-color: #398439;
+  width:140;
+  height:30;
+  font-family:comic sans ms;
+  font-size:25px;
+   border-radius:1000px;
+ }
+ 
+ 
+ #button:hover{
+	 color: #fff;
+  background-color: #ff0066;
+	 
+ }
+ 

@@ -1,0 +1,123 @@
+#div
+{	
+	background-color:rgba(255, 94, 0, 0.6);
+	margin-top:10px;
+	width:400px;
+	height:400px;
+	
+	
+}
+
+#subdiv
+{
+	background-color:lightslategray;
+	color:black;
+	margin-Top:10px;
+	width:400px;
+	height:50px;
+	
+}
+
+#button{
+    color: #fff;
+ background-color: #449d44;
+ border-color: #398439;
+ width:120;
+ height:30;
+ font-family:comic sans ms;
+ font-size:20;
+}
+
+
+ #button:hover{
+	 color: #fff;
+  background-color: #ff0066;
+	 
+ }
+ 
+
+
+/* #div {
+    transition-property:height;
+	
+} */
+
+#div:hover {
+    width: 300px;
+    height: 400px;
+	transition:0.6s ease;
+}
+
+/* #subdiv {
+   # transition-property:height;
+} */
+
+#subdiv:hover {
+    width: 300px;
+    height: 50px;
+	transition:0.6 ease;
+}
+/* #select{
+	background-color: rgb(255,255,255,0);
+	color:red;
+	border-color: rgb(255,255,255,0);
+	font-size:17px;
+	
+} */
+
+/* #select >option{
+	color:red;
+	margin-top:10px;
+	background-color:rgb(0,0, 0,0.6);
+	
+} */
+
+/* #select:hover{
+	background-color:white;
+	color:red;
+} */
+
+/* #option:hover{
+	background-color:yellow;
+	color:red;
+	
+}
+#td{
+	
+}
+#td:hover{
+	background-color:white;
+	color:red;
+	
+}
+#title:shadow{
+	
+	color:red;
+	#shadow:
+} */
+
+.body{
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(table.jpg);
+}
+/* 
+#menubar{
+	#	background-color:white;
+	background-color:rgb(0, 0, 0,0.1);
+}
+
+#menubar:hover{
+	#background-color:rgb(255,255,255,0.3);
+}
+
+#menubar > td{
+	color:white;
+	margin-top:10px;
+	background-color:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
+	width:200px;
+	height:50px;
+	
+}
+
+#menubar > td :hover{
+	#background-color:white;
+} */
